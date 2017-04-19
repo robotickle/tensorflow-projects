@@ -4,7 +4,16 @@
 ** SETUP **
 
 * Setup latest stable docker version.
-* $ docker run -it -p 8888:8888 gcr.io/tensorflow/tensorflow
+```buildoutcfg
+$ docker build -t robotickle-tf .
+
+# check the above created image
+$ docker images
+
+# run jupyter on 8888 and tensorboard on 6006
+$docker run -it -p 8888:8888 -p 6006:6006 robotickle-tf
+
+```
 * http://localhost:8888/    (will open your Jupyter notebook.)
 
 ```
