@@ -14,9 +14,10 @@ $ docker images
 $docker run -it -p 8888:8888 -p 6006:6006 robotickle-tf
 
 ```
-* http://localhost:8888/    (will open your Jupyter notebook.)
+* http://localhost:8888/<paste token from terminal>    (will open your Jupyter notebook.)
 
 ```
 follow above step runthem in order, if you have questions email to skandekar@cars.com
+TODO Tensorboard loggin and view
 
 ```
