@@ -20,4 +20,15 @@ $docker run -it -p 8888:8888 -p 6006:6006 robotickle-tf
 follow above step runthem in order, if you have questions email to skandekar@cars.com
 TODO Tensorboard loggin and view
 
+Docker Debug:
+
+$ stat $(which dockerd)
+
+1. netstat -ano|grep 8888 |grep LISTEN
+2. sudo service docker stop
+3. sudo service docker start
+4. docker run -it -p 8888:8888 -p 6006:6006 robotickle-tf
+
+
+
 ```
